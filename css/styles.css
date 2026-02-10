@@ -97,7 +97,23 @@ a:hover{
 /*hero*/
 
 .hero{
-  background-image: url(../images/section.hero.png);
+  background-image: url(../images/section.hero.jpg);
+  background-size: 100% 450px;
+  background-repeat: no-repeat;
+
+  padding: 136px 369px;
+}
+
+.contenu{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-position: center;
+  opacity: 50%;
+
+  align-items: center;
   
-  
+}
+.hero p{
+  color: #FFF;
 }
