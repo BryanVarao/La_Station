@@ -1,5 +1,5 @@
 /*-----------------------------------------------------
-    Reset
+    Générique
 -----------------------------------------------------*/
 html {
   box-sizing: border-box;
@@ -12,5 +12,92 @@ html {
 }
 
 /*-----------------------------------------------------
-    Base
+    Component
 -----------------------------------------------------*/
+body{
+  font-family: "dosis";
+}
+
+.wrapper{
+  max-width: 1280px;
+  margin: auto auto;
+
+}
+
+h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+h3{
+  font-size: 36px;
+  font-weight: bold;
+  color: #0E5EA1;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+
+/*-----------------------------------------------------
+    Éléments
+-----------------------------------------------------*/
+
+
+/*Navigateur*/
+
+.grille{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+ .logo{
+  display: flex;
+  gap: 30px;
+ }
+
+ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover{
+  width: 77px;
+  height: 28px;
+  background-color: #0E5EA1;
+
+}
+
+
+/*hero*/
+
+.hero{
+  background-image: url(../images/section.hero.png);
+  
+  
+}
