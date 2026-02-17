@@ -27,12 +27,14 @@ body{
 h1{
   font-weight: bold;
   font-size: 40px;
+
 }
 
 h2{
   font-size: 50px;
   font-weight: bold;
   color: #FFF;
+  margin: 0px;
 }
 
 h3{
@@ -73,6 +75,7 @@ ul{
   display: flex;
   justify-content: flex-end;
   gap: 30px;
+  
 }
 
 li{
@@ -90,7 +93,9 @@ a:hover{
   width: 77px;
   height: 28px;
   background-color: #0E5EA1;
-
+  border-radius: 5px;
+  padding: 4px;
+  color: #FFF;
 }
 
 
@@ -101,19 +106,30 @@ a:hover{
   background-size: 100% 450px;
   background-repeat: no-repeat;
 
-  padding: 136px 369px;
+
+  padding: 136px 520px;
 }
 
 .contenu{
   display: flex;
   flex-direction: column;
-  background-color: black;
-  background-position: center;
-  opacity: 50%;
-
   align-items: center;
-  
+  gap: 10px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: 642px;
+  border-radius: 10px;
+
+  color: #FFF;
+
+padding: 40px;
 }
 .hero p{
-  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
 }
+
+
+/*bouton*/
