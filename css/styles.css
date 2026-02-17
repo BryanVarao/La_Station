@@ -133,3 +133,41 @@ padding: 40px;
 
 
 /*bouton*/
+
+.bouton{
+  max-width: 148px;
+  background-color: #0E5EA1;
+  border-radius: 5px;
+
+  background-color: #B7B7B7;
+  
+  padding: 5px 20px;
+}
+
+.bouton:hover{
+  background-color: #0E5EA1;
+  color: #FFF;
+}
+
+.bouton p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: inherit;
+  background-color: black;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: lighter;
+}
