@@ -46,6 +46,7 @@ h3{
 h4{
   font-size: 24px;
   font-weight: bold;
+  text-align: left;
 }
 
 p{
@@ -87,19 +88,18 @@ a{
   color: black;
   font-size: 16px;
   font-weight: bold;
+  padding: 4px 10px;
 }
 
 a:hover{
-  width: 77px;
-  height: 28px;
   background-color: #0E5EA1;
   border-radius: 5px;
-  padding: 4px;
+  
   color: #FFF;
 }
 
 
-/*hero*/
+/*Hero*/
 
 .hero{
   background-image: url(../images/section.hero.jpg);
@@ -132,7 +132,7 @@ padding: 40px;
 }
 
 
-/*bouton*/
+/*Bouton*/
 
 .bouton{
   max-width: 148px;
@@ -142,6 +142,10 @@ padding: 40px;
   background-color: #B7B7B7;
   
   padding: 5px 20px;
+
+  align-self: center;
+
+  margin-top: auto;
 }
 
 .bouton:hover{
@@ -156,6 +160,45 @@ padding: 40px;
   font-size: 14px;
   text-align: center;
 }
+
+/*Decouverte*/
+.decouverte{
+  background-color: #EEEEEE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+section .wrapper .grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: #FFF;
+
+  padding: 20px;
+}
+
+article p{
+line-height: 160%;
+}
+
+
+/*Banniere*/
+
+.banniere{
+text-align: center;
+margin-top: 80px;
+}
+
+/*Footer*/
 
 footer{
   display: flex;
